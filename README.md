@@ -3,7 +3,7 @@ A repository for developing, storing, and sharing Excel LAMBDA functions
 
 In this repository the custom Lambda functions are stored within Excel files (.xlsx). The files include some documentation and examples of the development steps, a final version of the full function along with full function documentation (e.g. purpose, parameters, error codes), and some examples of the intended function usage.
 
-If you wish to use an RXL custom Lambda function within your own Excel Workbook, there are 3 main options available to you:\
+If you wish to use an RXL custom Lambda function within your own Excel Workbook, there are 3 main options available to you:
 1. Each Excel file contains a copy of the final function with its appropriate name within the Name Manager which can be copied across to a new Workbook as you normally would for copying a defined name between Workbooks.
 2. Each Excel file also contains a "minimised" version of the final function - this is copy of the final function (as displayed in the file) but with all unnecessary spaces and any code comments removed and as a single text string. This minimised version can be copied and pasted directly into the Name Manager when creating a new defined name via the "Refers to:" input box in the "New Name" window.
 > [!NOTE]
@@ -13,8 +13,7 @@ If you wish to use an RXL custom Lambda function within your own Excel Workbook,
 > [!TIP]
 > There are also RXL function modules available as Gist files which can be added to your Workbook with multiple similar functions stored together. These modules are only available as Gists; if using one of the other above methods you will need to add each of the module functions individually. 
 
-
-
+\
 R Silk\
 RXL Development, Chelmsford, UK\
 https://excel-bits.net
